@@ -1,9 +1,4 @@
-# Experiment No. 4
-# Title: Fibonacci using Memoization and Tabulation
 
-# ---------------------------------------------------------
-# METHOD 1: MEMOIZATION (Top-Down Approach)
-# ---------------------------------------------------------
 
 def fibonacci_memoization(n, memo=None):
     if memo is None:
@@ -26,9 +21,7 @@ def fibonacci_memoization(n, memo=None):
     return memo[n]
 
 
-# ---------------------------------------------------------
-# METHOD 2: TABULATION (Bottom-Up Approach)
-# ---------------------------------------------------------
+
 
 def fibonacci_tabulation(n):
     if n == 0:
@@ -49,9 +42,7 @@ def fibonacci_tabulation(n):
     return dp[n]
 
 
-# ---------------------------------------------------------
-# MAIN PROGRAM
-# ---------------------------------------------------------
+
 
 n = int(input("Enter the value of n: "))
 
